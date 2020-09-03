@@ -1,0 +1,15 @@
+[OVERALL], Throughput(ops/sec), 8143.985666585227
+[OVERALL], Throughput(ops/sec), 16709.833737154317
+[OVERALL], Throughput(ops/sec), 19328.651504413374
+[OVERALL], Throughput(ops/sec), 14172.837756439783
+[OVERALL], Throughput(ops/sec), 13817.116644098709
+[CLEANUP], AverageLatency(us), 138820.0
+[INSERT], AverageLatency(us), 1496.43142
+[CLEANUP], AverageLatency(us), 138436.5
+[INSERT], AverageLatency(us), 725.507005
+[CLEANUP], AverageLatency(us), 138307.9375
+[INSERT], AverageLatency(us), 674.7467633333333
+[CLEANUP], AverageLatency(us), 138694.625
+[INSERT], AverageLatency(us), 986.1704425
+[CLEANUP], AverageLatency(us), 138820.6875
+[INSERT], AverageLatency(us), 1043.736626

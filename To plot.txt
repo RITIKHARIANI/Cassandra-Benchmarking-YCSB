@@ -1,0 +1,20 @@
+A) y vs x
+Run - 	read latency vs thru
+	update latency vs thru
+
+B)
+Run-    read latency vs thru
+
+C)
+Run -	read latency vs thru
+
+D)
+Run - 	read latency vs thru
+
+E)
+Run - 	read latency vs thru
+
+F)
+Run - 	read-modify-write vs thru
+	
+	

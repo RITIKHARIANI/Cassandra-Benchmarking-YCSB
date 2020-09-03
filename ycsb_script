@@ -1,0 +1,15 @@
+!/bin/bash
+for i in {100000..500000..100000}
+        do     
+
+            touch Workload_${letter}_${i}_LOAD.txt
+
+            ./bin/ycsb load cassandra-cql -s -P workloads/workloadf -t -p recordcount=$i -threads 16 -p hosts="localhost"  > Workload_f_${i}_LOAD.txt
+
+            touch Workload_f_${i}_RUN.txt
+
+            ./bin/ycsb run cassandra-cql -s -P workloads/workloadf -t -p operationcount=$i -threads 16 -p hosts="localhost"  > Workload_f_${i}_RUN.txt
+                        
+                        done
+                        
+
