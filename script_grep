@@ -1,0 +1,11 @@
+#!/bin/bash
+for ter in a b c d e f:
+    do
+        for i in RUN LOAD
+            do
+                touch Workload_${ter}_rg_values_${i}.txt
+                cat *${ter}*${i}.txt | grep Throughput\(ops\/sec\) > Workload_${ter}_rg_values_${i}.txt 
+                cat *${ter}*${i}.txt | grep AverageLatency > Workload_${ter}_rg_values_${i}.txt  
+            done
+            
+    done        
